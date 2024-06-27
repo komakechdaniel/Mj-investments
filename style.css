@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(210, 230, 223);
+    color: black;
+    font-family: sans-serif;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: rgb(58, 55, 55);
+    color: white;
+}
+form{
+    background-color: white;
+    padding: 80px;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+.age{
+    margin-top: -50px;
+}
+.years{
+    margin-top: 20px;
+}
+.salary{
+    margin-top: 20px;
+}
+.age1{
+    margin-bottom: 5px;
+}
+.number1{
+    padding: 10px;
+    border-radius: 5px;
+}
+.results{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MJ Investments NSSF system</h1>
+        <form action="nssf">
+            <div class="age">
+                <strong><label for="age">Your Age</label></strong>
+                <input type="number" id="age" class="number1" name="age" placeholder="Enter your age">
+            </div>
+
+            <div class="years">
+                <strong><label for="years">Years Of Work</label></strong>
+                <input type="number" class="number1" id="yearsOfWork" name="yearsOfWork" placeholder="Enter your years of work">
+            </div>
+
+            <div class="salary">
+                <strong><label for="basicSalary">Basic salary</label></strong>
+                <input type="number" id="basicSalary" class="number1" name="basicSalary" placeholder="Enter your basic salary">
+            </div>
+
+            <button type="button" onclick="calculateNSSF()">Calculate</button>
+        </form>
+
+        <div class="results">
+            <p id="yearsToRetirement"></p>
+            <p id="totalNSSF"></p>
+        </div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
